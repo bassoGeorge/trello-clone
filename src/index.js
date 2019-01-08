@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Heading} from './heading'
 
 import "./assets/scss/App.scss"
+import App from './app'
 
 const wrapper = document.getElementById("app")
-wrapper && ReactDOM.render(<Heading text="Hello World!"/>, wrapper)
+wrapper && ReactDOM.render(<App/>, wrapper)
